@@ -2,8 +2,7 @@ def get_user_info(users, user_id):
     user = users.get(user_id)
 
     if user is None:
-        print("User not found")
-        return None
+    return "User not found"
 
     name = user["name"]
     email = user["email"]
